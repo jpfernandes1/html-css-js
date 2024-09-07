@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 300px); /* Cria duas colunas */
+    gap: 8px;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Centraliza as imagens verticalmente */
+    padding: 20px;
+  }
+
+  .grid-container img {
+    width: 300px; /* Define largura fixa de 300px */
+    height: auto; /* Mantém a proporção da altura */
+    display: block;
+    border-radius: 10px; /* Bordas arredondadas (opcional) */
+  }
+
+  .grid-container a {
+    text-align: center;
+  }
+ 
